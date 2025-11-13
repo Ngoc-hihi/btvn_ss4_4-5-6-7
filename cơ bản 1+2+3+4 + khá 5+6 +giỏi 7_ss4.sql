@@ -59,7 +59,7 @@ GROUP BY Department;
 -- Hiển thị tên bộ phận và lương trung bình
 SELECT Department, AVG(Salary) AS LuongTrungBinh
 FROM Employees
-GROUP BY Department
+GROUP BY Department;
 -- Chỉ hiển thị các bộ phận có lương trung bình > 5000
 SELECT Department, AVG(Salary) AS LuongTrungBinh
 FROM Employees
